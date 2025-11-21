@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.parteSuperior {
+    background-color: green;
+    color: black;
+    text-align: center;
+}
+
+/* contenedor principal */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.parteCentral {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    flex: 1;
+}
+
+/*  div para el area de etiquetas de tareas  */
+.Tareas {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+/* etiqueta de tareas */
+.listasTareas {
+    /*background-color: green;*/
+    color: black;
+    margin: 1%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* area de texto */
+.contenedorTexttarea {
+    background-color: hsla(0, 0%, 100%, 0.3);
+    color: black;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 20px;
+    flex: 1;
+
+    max-width: 70%;
+    /* no crece más que el padre */
+    word-wrap: break-word;
+    /* rompe palabras largas */
+    overflow-wrap: break-word;
+    /* versión moderna */
+}
+
+/* boton de eliminar tarea */
+.Btn_eliminarTarea {
+    background-color: red;
+    height: 30px;
+    width: auto;
+    margin: 1%;
+    margin-left: 10px
+}
+
+/* parte inferior */
+.parteInferior {
+    background-color: paleturquoise;
+    color: black;
+    text-align: center;
+
+}
+
+.areaDeIngresar {
+    color: black;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+
+/* area para ingresar la tarea  */
+textarea {
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* estilo global de botones */
+button {
+    border-radius: 10px;
+}
+
+/* estilo del boton agregar */
+button#Btn_agregarTarea {
+    margin-top: 1%;
+    padding: 1%;
+    background-color: green;
+}
+
+footer {
+    background-color: green;
+    color: black;
+    text-align: center;
+    margin-bottom: 1%;
+}
