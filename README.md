@@ -26,12 +26,12 @@ Este proyecto demuestra mi habilidad para:
 ---
 
 ## Características Principales
-- **INterfaz:** Interfaz Secilla y entendible.
+- **Interfaz:** Interfaz Secilla y entendible.
 - **Logica en JS:** Logica sencilla para que la INterfaz sea dinamica.
 
 ---
 ## Obejetivos Futuros
-- Conectarlo a una BAse de datos.
-- desplegarlo de froma local para uso personal.
-- mejor mas la interfaz.
-- ebtre otros.
+- Conectarlo a una Base de datos.
+- Desplegarlo de forma local para uso personal.
+- Mejor mas la interfaz.
+- Entre otros.
